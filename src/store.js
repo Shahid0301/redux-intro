@@ -61,3 +61,4 @@ store.dispatch(deposit(500));
 console.log(store.getState());
 store.dispatch(requestLoan(1000,"buy a car"));
 console.log(store.getState());
+store.dispatch(withdraw());
